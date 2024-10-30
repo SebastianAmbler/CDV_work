@@ -13,5 +13,5 @@ main() {
 	printf("\nPlease enter your radius.\n");
 	scanf("%f", &radius);
 	area = calculate(radius);
-	printf("The area of your circle is %.2f cm^3", area);
+	printf("The area of your circle is %.2f cm^2", area);
 }
